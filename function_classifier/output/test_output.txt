@@ -1,0 +1,25 @@
+
+feature importance:
+--instr: 0.0274
+--mov: 0.0484
+--cmp: 0.069
+--arithmetic: 0.0417
+--bitwise: 0.2948
+--call: 0.0493
+--jump: 0.0494
+--shift: 0.0146
+--float: 0.405
+
+Error:    0.0098
+Accuracy: 0.9901
+
+F1 Score: 0.9815
+
+K-Fold cross validation:
+--Error:    0.0368
+--Accuracy: 0.9631
+
+time elapsed: 8.013 s
+--feature extraction: 7.6006 s
+--model training:     0.0138 s
+--model testing:      0.3986 s
